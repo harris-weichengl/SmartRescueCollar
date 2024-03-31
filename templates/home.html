@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Collar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/template.css') }}">
+</head>
+<body>
+    {% extends "template.html" %}
+    {% block content %}  
+    
+    <h1>Welcome to Smart Collar</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('gps') }}">GPS</a></li>
+            <li><a href="{{ url_for('audio') }}">Audio</a></li>
+            <li><a href="{{ url_for('video') }}">Video</a></li>
+        </ul>
+    </nav>
+    <p>This is the home page for the Smart Collar application. Navigate through the menu to explore features.</p>
+    
+    {% endblock %}
+</body>
+</html>
