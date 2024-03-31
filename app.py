@@ -47,7 +47,7 @@ AUDIO_PAGE = """\
 VIDEO_PAGE = """\
 <html>
 <head>
-<title>Smart Collar's View</title>
+<title>Smart Rescue Collar's View</title>
 <link rel="stylesheet" href="/css/template.css"/>
 </head>
 <body>
